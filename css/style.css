@@ -1,1 +1,154 @@
 
+html {
+  font-size: 80%;
+}
+
+a.link {
+  color: black;
+  text-decoration: none;
+}
+
+a.link-top {
+  font-size: 0.8em;
+  text-decoration: none;
+}
+a.link-top:hover {
+  text-decoration: none;
+}
+
+a.headline {
+  font-size: 1.1em;
+  text-decoration: none;
+}
+a.headline:hover {
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.title {
+  color: white;
+  text-decoration: none;
+}
+
+a.title:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 0.8em;
+}
+
+.bg-c-light-grey {
+  background: grey;
+}
+
+.card {
+  border-radius: 55px;
+}
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.tag {
+  font-weight: bold;
+}
+
+.banner-new-artists {
+  background: rgb(255, 42, 48);
+  color: white !important;
+}
+
+.banner-promotion-orange {
+  background: rgb(252, 106, 21);
+}
+
+.banner-promotion-red {
+  background: rgb(248, 28, 28);
+}
+
+.blk {
+  background: #003f5c;
+  color: white !important;
+}
+
+.blkw {
+  background: #5677b2;
+  color: white !important;
+}
+
+.tsy {
+  background: #7c5db8;
+  color: white !important;
+}
+
+.tsyw {
+  background: #a05195;
+  color: white !important;
+}
+
+.vxn {
+  background: #d45087;
+  color: white !important;
+}
+
+.mfy {
+  background: #fb7580;
+  color: white !important;
+}
+
+.dpr {
+  background: #ff7c43;
+  color: white !important;
+}
+
+.sly {
+  background: #ffbd41;
+  color: white !important;
+}
+
+.wfy {
+  background: #d19600;
+  color: white !important;
+}
+
+.table_calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.th_calendar,
+.td_calendar {
+  width: 14.28%;
+  border: 1px solid rgb(186, 186, 186);
+  text-align: center;
+  padding: 10px;
+  vertical-align: top;
+  position: relative;
+}
+.th_calendar {
+  background-color: #f2f2f2;
+}
+.td_calendar.empty {
+  background-color: #eaeaea;
+}
+.date-label {
+  position: relative;
+  font-weight: bold;
+  padding-top: 1.2em;
+}
+.date-label::after {
+  content: attr(data-date);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 0.9em;
+  color: #888;
+}
